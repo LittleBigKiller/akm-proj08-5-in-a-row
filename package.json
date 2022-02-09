@@ -1,0 +1,33 @@
+{
+  "name": "akm-balls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack --mode production",
+    "dev": "webpack --no-inline --mode development --watch --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleBigKiller/akm-balls.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LittleBigKiller/akm-balls/issues"
+  },
+  "homepage": "https://github.com/LittleBigKiller/akm-balls#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.1",
+    "style-loader": "^1.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.9.0"
+  }
+}
